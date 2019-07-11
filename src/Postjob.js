@@ -14,17 +14,17 @@ export default class Postjob extends React.Component{
 
     <Header/>
 
-	<section>
+	<section class="postjob-padtopbtm">
 	<div className="container">
 		<div className="row">
 		<div className="col-md-12">
 		<div className="col-md-offset-8 col-md-offset-2">
-			<div className="col-md-7 col-xs-7">
+			<div className="col-md-7">
 				<p className="home-lookingfor">All in one Platform</p>
 				<p className="home-lookingyour">for all your <span>hiring needs</span></p>
 			</div>
-			<div className="col-md-5 col-xs-5">
-				<p className="home-lookingfor">Are You looking</p>
+			<div className="col-md-5">
+				<a type="button" class="btn btn-default postjob-padbutto">Post a job</a>
 			</div>
 		</div>
 		</div>
@@ -37,10 +37,10 @@ export default class Postjob extends React.Component{
 	<div className="container">
 	<div className="col-md-12 home-visiblepads">
 		<div className="col-md-4 text-center">
-			<img className="image-responsive home-visibleimg" src="image/uniqueim.png" />
+			<img className="image-responsive home-visibleimg" src="image/uniquedashboard.png" />
 		</div>
 		<div className="col-md-8">
-			<p className="home-uniquehead">Unique Platform with end to end interview process</p>
+			<p className="home-uniquehead">Unique employer dashboard for end to end interview process</p>
 			<p className="home-uniquetext">Lorem Ipsum has been the industry's standard dummy text ever sinceLorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since theLorem Ipsum has been the industry's standard dummy text ever since the</p>
 			<a className="btn btn-lg btn-default home-uniquebtns" href="#">Lets Start</a>
 		</div>

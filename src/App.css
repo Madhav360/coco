@@ -59,22 +59,25 @@
   height: 50px;
 }
 
+{/* home begin */}
+
 #letsget {
   background: url(/image/bghomeheader.png) center center no-repeat;
   position: relative;
   background-size: cover;
 }
-.home-lookingfor{
-    margin-top: 35px;
+.home-lookingfor {
+  margin-top: 35px;
   font-size: 30px;
   color: #a79f9f;
   font-weight: 300;
+  margin-bottom: 0px;
 }
 .home-lookingyour {
   font-size: 30px;
   color: #a79f9f;
   font-weight: 300;
-  line-height: 17px;
+  line-height: 1;
 margin-bottom: 20px;
 }
 .home-lookingyour span{
@@ -252,8 +255,21 @@ background-size: cover;
   color: #9b9d9e;
   font-size: 13px;
 }
+{/* home end  */}
 
+.postjob-padtopbtm{
+  padding:4% 0;
+}
+.postjob-padbutto{
+  background-color: #6C63FF;
+  border-color: #6C63FF;
+  color: #fff;
+  padding: 13px 45px;
+  border-radius: 30px;
+  margin-top: 16%;
+}
 
+{/* footer begin */}
 .footer1 {
   background: #6C63FF;
 padding-top: 40px;
@@ -351,3 +367,5 @@ width: 30px;
 .design a {
   color: #fff;
 }
+
+{/* footer end */}
