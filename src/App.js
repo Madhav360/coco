@@ -6,6 +6,7 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './Home';
 import Postjob from './Postjob';
+import Login from './Login';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             
             <Route exact path="/" component={() => (<div className="App"><Home /></div>)} />
             <Route exact path="/Postjob" component={() => (<Postjob />)} />
+            <Route exact path="/Login" component={() => (<Login />)} />
           </Switch>
       </BrowserRouter>
     );

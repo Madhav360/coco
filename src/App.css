@@ -257,6 +257,44 @@ background-size: cover;
 }
 {/* home end  */}
 
+{/* login   */}
+.login-form-1{
+  padding: 5%;
+}
+.login-form-1 h3 {
+  text-align: left;
+  color: #0E306B;
+  font-weight: 700;
+  margin-top: 8%;
+}
+.login-form-2{
+  padding: 5%;
+  background: #6C63FF;
+}
+.login-container form{
+  padding: 10%;
+}
+.btnSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+  font-weight: 600;
+  color: #fff;
+  background-color: #0062cc;
+}
+.login-form-1 .ForgetPwd{
+  color: #0062cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+{/* login end  */}
+
+
 .postjob-padtopbtm{
   padding:4% 0;
 }

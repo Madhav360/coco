@@ -11,6 +11,7 @@ import{
 
 import Home from "./Home";
 import Postjob from "./Postjob";
+import Login from "./Login";
 
 const appRoute =[
    {
@@ -27,6 +28,11 @@ const appRoute =[
     path:"/Postjob",
    	isExactPath: true,
    	component: <Postjob />
+   },
+   {
+    path:"/Login",
+   	isExactPath: true,
+   	component: <Login />
    },
 ];
 

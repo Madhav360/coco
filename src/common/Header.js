@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Header extends React.Component{
 	constructor(props){
@@ -25,11 +26,11 @@ export default class Header extends React.Component{
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-2">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Find a job</a></li>
-                <li><a href="#">Post a job</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Signup</a></li>
+                <li><Link to="#">Categories</Link></li>
+                <li><Link to="#">Find a job</Link></li>
+                <li><Link to="/Postjob">Post a job</Link></li>
+                <li><Link to="/Login">Login</Link></li>
+                <li><Link to="#">Signup</Link></li>
             </ul>
             </div>
         </div>
