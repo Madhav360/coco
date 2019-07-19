@@ -12,24 +12,31 @@ export default class Login extends React.Component{
 
         <div class="container-fluid">
             <div class="row">
+                <div class="colors">
                 <div class="col-md-6 login-form-2">
                     <img class="img-responsive" src="image/login.png" />
+                </div>
                 </div>
                 <div class="col-md-6 login-form-1">
                 <img class="img-responsive nav-logoheight" src="image/logo.png" />
                     <h3>Login for Form 1</h3>
+                    <h4>Lorem Lorem Lorem Lorem Lorem Lorem Lorem </h4>
+                    <button type="button" class="btn btn-primary jobseekerbtns">I am a Job Seeker</button>
+                    <button type="button" class="btn btn-primary jobseekerbtns">I am Service Provider</button>
                     <form>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Email *" value="" />
+                            <labe>Email</labe>
+                            <input type="text" class="form-control logininputs" placeholder="abc@gmail.com" value="" />
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Your Password *" value="" />
+                            <labe>Password</labe>
+                            <input type="password" class="form-control logininputs" placeholder="*******" value="" />
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btnSubmit" value="Login" />
                         </div>
                         <div class="form-group">
-                            <a href="#" class="ForgetPwd">Forget Password?</a>
+                            Don't have an Account ? <a href="#" class="ForgetPwd">Signup</a>
                         </div>
                     </form>
                 </div>
