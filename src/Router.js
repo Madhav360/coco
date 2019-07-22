@@ -12,6 +12,7 @@ import{
 import Home from "./Home";
 import Postjob from "./Postjob";
 import Login from "./Login";
+import Pnewjob from "./Pnewjob";
 
 const appRoute =[
    {
@@ -33,6 +34,11 @@ const appRoute =[
     path:"/Login",
    	isExactPath: true,
    	component: <Login />
+   },
+   {
+    path:"/Pnewjob",
+   	isExactPath: true,
+   	component: <Pnewjob />
    },
 ];
 
