@@ -313,6 +313,13 @@ background-size: cover;
 }
 {/* login end  */}
 
+{/* Post new job begin  */}
+
+.pnewjob-pads{
+  padding: 4%;
+}
+
+{/* Post new job end  */}
 
 .postjob-padtopbtm{
   padding:4% 0;
