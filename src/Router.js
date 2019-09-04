@@ -11,8 +11,12 @@ import{
 
 import Home from "./Home";
 import Postjob from "./Postjob";
-import Login from "./Login";
+import Login from "./Useraccount/Login";
 import Pnewjob from "./Pnewjob";
+import Forgetpassword from "./Useraccount/Forgetpassword";
+import Forgetotp from "./Useraccount/Forgetotp";
+import Newpassword from "./Useraccount/Newpassword";
+import Signup from "./Useraccount/Signup";
 
 const appRoute =[
    {
@@ -31,7 +35,7 @@ const appRoute =[
    	component: <Postjob />
    },
    {
-    path:"/Login",
+    path:"Useraccount/Login",
    	isExactPath: true,
    	component: <Login />
    },
@@ -39,6 +43,26 @@ const appRoute =[
     path:"/Pnewjob",
    	isExactPath: true,
    	component: <Pnewjob />
+   },
+   {
+    path:"Useraccount/Forgetpassword",
+   	isExactPath: true,
+   	component: <Forgetpassword />
+   },
+   {
+    path:"Useraccount/Forgetotp",
+   	isExactPath: true,
+   	component: <Forgetotp />
+   },
+   {
+    path:"Useraccount/Newpassword",
+   	isExactPath: true,
+   	component: <Newpassword />
+   },
+   {
+    path:"Useraccount/Signup",
+   	isExactPath: true,
+   	component: <Signup />
    },
 ];
 

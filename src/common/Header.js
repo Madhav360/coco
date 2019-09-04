@@ -21,7 +21,7 @@ export default class Header extends React.Component{
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-                    <img className="img-responsive nav-logoheight" src="image/logo.png" />
+                <img className="img-responsive nav-logoheight" src="image/logo.png" />
             </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-2">
@@ -29,8 +29,8 @@ export default class Header extends React.Component{
                 <li><Link to="#">Categories</Link></li>
                 <li><Link to="#">Find a job</Link></li>
                 <li><Link to="/Postjob">Post a job</Link></li>
-                <li><Link to="/Login">Login</Link></li>
-                <li><Link to="#">Signup</Link></li>
+                <li><Link to="/Useraccount/Login">Login</Link></li>
+                <li><Link to="/Useraccount/Signup">Signup</Link></li>
             </ul>
             </div>
         </div>
