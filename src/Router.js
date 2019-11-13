@@ -10,14 +10,9 @@ import{
 } from "react-router-dom";
 
 import Home from "./Home";
-import Postjob from "./Postjob";
-import Login from "./Useraccount/Login";
-import Pnewjob from "./Pnewjob";
-import Forgetpassword from "./Useraccount/Forgetpassword";
-import Forgetotp from "./Useraccount/Forgetotp";
-import Newpassword from "./Useraccount/Newpassword";
-import Signup from "./Useraccount/Signup";
-
+import Productdesciption from "./Productdesciption";
+import Userdetails from "./Userdetails";
+import Productvalidity from "./Productvalidity";
 const appRoute =[
    {
    	path:"/",
@@ -35,35 +30,21 @@ const appRoute =[
    	component: <Postjob />
    },
    {
-    path:"Useraccount/Login",
+    path:"/Productdesciption",
    	isExactPath: true,
-   	component: <Login />
+   	component: <Productdesciption />
    },
    {
-    path:"/Pnewjob",
+    path:"/Userdetails",
    	isExactPath: true,
-   	component: <Pnewjob />
+   	component: <Userdetails />
    },
    {
-    path:"Useraccount/Forgetpassword",
+    path:"/Productvalidity",
    	isExactPath: true,
-   	component: <Forgetpassword />
+   	component: <Productvalidity />
    },
-   {
-    path:"Useraccount/Forgetotp",
-   	isExactPath: true,
-   	component: <Forgetotp />
-   },
-   {
-    path:"Useraccount/Newpassword",
-   	isExactPath: true,
-   	component: <Newpassword />
-   },
-   {
-    path:"Useraccount/Signup",
-   	isExactPath: true,
-   	component: <Signup />
-   },
+
 ];
 
 //HashRouter  also apply # 
