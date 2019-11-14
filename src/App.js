@@ -8,6 +8,20 @@ import Productdesciption from './Productdesciption'
 import Userdetails from './Userdetails';
 import Productvalidity from './Productvalidity';
 class App extends Component {
+
+  state = {
+    contacts: []
+};
+
+componentDidMount() {
+    fetch('http://jsonplaceholder.typicode.com/users')
+        .then(res => res.json())
+        .then((data) => {
+            this.setState({ contacts: data })
+        })
+        .catch(console.log)
+}
+
   render() {
     return (
       <BrowserRouter>
