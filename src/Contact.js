@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from './common/Header';
 
 
+
 const Contact = ({contacts}) => {
 	
 	return(
@@ -106,7 +107,8 @@ const Contact = ({contacts}) => {
 			</div>
             <div className="detail-menu text-center">
             <img className="img-resposive" src="image/product.jpg" /><br />
-            <button className="btn primary">Get Notification</button>
+            
+            <Link to="/userdetails"><button className="btn primary">Get Notification</button></Link>
             </div>
             {/* <div className="col-md-12 text-center prdbtn">
                 <button className="btn">Click Here</button>

@@ -1,6 +1,8 @@
 import React from 'react';
 import {Component} from 'react';
 import Header from './common/Header';
+import { Link } from 'react-router-dom';
+
 
  class Userdetails extends Component{
 	constructor(props){
@@ -48,7 +50,7 @@ import Header from './common/Header';
                     </div>
                 </div>
                 <div className="col-xs-12 text-center">
-                    <button className="btn addtocart">Add to Cart</button>
+                   <Link to="/productvalidity"> <button className="btn addtocart">Add to Cart</button></Link>
                 </div>
 			</div>
 		</div>
